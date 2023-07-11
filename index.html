@@ -43,34 +43,50 @@
 </header>
 <!--Header area ends-->
 <!--Home page slider carousel start-->
-<div id="carouselIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./Images/New Image.png" class="d-block w-100" alt="PregMum">
-      <div class="carousel-caption d-none d-md-block">
-      <h1>MOTHERHOOD IS A JOURNEY AND <a class="link-light" href="#">WE ARE HERE</a> TO SUPPORT YOU EVERY STEP OF THE WAY</h1>
+<!--Home page slider carousel start-->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#myCarousel" daata-slide-to="0" class="active"></li>
+    <li data-bs-target="#myCarousel" data-slide-to="1"></li>
+    <li data-bs-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+<div class="carousel-inner">
+  <div class="carousel-item active back1">
+    <div class="container">
+      <h3> MOTHERHOOD IS A JOURNEY AND</h3>
+        <h3><a class="link-light" href="#">WE ARE HERE</a> 
+        TO SUPPORT YOU EVERY STEP OF THE WAY</h3>
       <p>Motherhood is a beautiful adventure and we are your trusty companion along the way</p>
-      <button type="button"class="btn btn-outline-warning">SPEAK TO A DOCTOR</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="carousel-caption d-none d-md-block space"></div>
-      <button type="button"class="btn btn-outline-warning">WE ARE HERE FOR YOU</button>
-      <h1>WE HELP YOU GROW CONFIDENCE AS A MOTHER</h1>
-      <p>Starting with a consultation on what choice you'll have as a future parent, weekly group support classes and medical exams, we're here to help! </p>
-      <img src="/Images/Mother and baby (1).png" alt="BaMa" class="img">
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <a href="#"><button type="button"class="btn btn-outline-warning">SPEAK TO A DOCTOR</button></a>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <div class="carousel-item">
+    <div class="container">
+      <a href="#"><button type="button"class="btn btn-outline-warning">WE ARE HERE FOR YOU</button></a>
+      <h3> WE HELP YOU GROW CONFIDENCE AS A MOTHER</h3>
+      <p>Starting with a consultation on what choice you'll have as a future parent, weekly group support classes and medical exams, we're here to help!</p>
+    </div>
+</div>
+<div class="carousel-item back2">
+  <div class="container">
+    <a href="#"><button type="button"class="btn btn-outline-warning">WE ARE HERE FOR YOU</button></a>
+    <h3> OUR CONFIDENT MOTHER</h3>
+    <p>Starting with a consultation on what choice you'll have as a future parent, weekly group support classes and medical exams, we're here to help!</p>
+  </div>
+</div>
+</div>
+ <!-- <a href="#myCarousel">
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  </a>
+  <a href="#myCarousel"><button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button></a>-->
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>

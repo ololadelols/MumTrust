@@ -11,6 +11,10 @@ ul{
     margin: 0;
     list-style: none;
 }
+
+li{
+    list-style: none;
+}
 header, nav, section{
     display:block;
 }
@@ -26,9 +30,18 @@ header, nav, section{
 .carousel-item {
     height: 32rem;
     background: #3199aa;
+    color: white;
     margin-top: 40px;
     position: relative;
+    background-position: center;
+    background-size: cover; 
      }
+.back1{
+    background-image: url(/Images/bakImage.png);
+}
+.back2{
+    background-image: url(/Images/bluepreggi.png);
+}
   .container{
     position: absolute;
     bottom: 0;

@@ -27,7 +27,7 @@ header, nav, section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #edbc67;
 }
-.carousel-item {
+.div-back {
     height: 32rem;
     background: #3199aa;
     color: white;
@@ -36,22 +36,13 @@ header, nav, section{
     background-position: center;
     background-size: cover; 
      }
-.back1{
-    background-image: url(/Images/bakImage.png);
+ .back{
+    height: 480px;
 }
-.back2{
-    background-image: url(/Images/bluepreggi.png);
+.backimg{
+    height: 100%;
+    object-fit: cover;
 }
-.back3{
-    background-image:url(/Images/yellowpregi.png)
-}
-  .container{
-    position: absolute;
-    bottom: 0;
-    left:0;
-    right: 0;
-    padding-bottom: 50px;
-  }
   .img{
     border-radius: 8px;
     width:300px; 
@@ -82,4 +73,3 @@ header, nav, section{
         top: var(--topNavbarHeight);
         height: calc(100%- var(--topNavbarHeight));
     }
-}
